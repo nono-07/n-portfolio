@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Nana's portfolio</title>
+        <meta name="description" content="Nana profile portfolio ポートフォリオ Webデザイン">
+
+        <!--ファビコン-->
+        <link rel="icon" type="images/.png" href="images/favicon.png">
+
+        <!--リセットCSS-->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+        <!-- Googleフォント -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Itim&family=Kiwi+Maru&family=Libre+Bodoni:ital,wght@1,600&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+
+        <!-- Animate.css -->
+        <script src="https://kit.fontawesome.com/1fc184773c.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+        <!--JavaScriptライブラリ-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+
+        <!-- オリジナルCSS -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="wrapper">
+                <h1>
+                    <a href="index.html"><img class="logo" src="images/icon.jpg" alt="logo"></a>
+                </h1>
+                <nav>
+                    <h1>
+                        <button class="btn-menu"><img class="menu" src='images/menu.svg' alt="menu"></button>
+                    </h1>
+                    <ul class="main-nav">
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="webdesign.html">Webデザイン</a></li>
+                        <li><a href="psai.html">Ps / Ai</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="hero">
+            <h1>PORTFOLIO</h1>
+            <h3>Nana</h3>
+            <img src="images/maincat.png" alt="猫のイラスト">
+        </section>
+
+        <section class="work-item">
+            <section class="webdesign">
+                <h2>Webデザイン</h2>
+                <h6>figma(デザイン), HTML / CSS(コード)</h6>
+                <div class="webimg-box">
+                    <img src="images/portfolio-pc-s.png" alt="ポートフォリオサイトPCサイズ">
+                    <img class="webmb" src="images/portfolio-mobile-s.png" alt="ポートフォリオサイトモバイルサイズ">
+                </div>
+                <div class="webimg-box">
+                    <img src="images/diligently-pc-s.png" alt="架空WebサイトPCサイズ">
+                    <img class="webmb" src="images/diligently-mobile-s.png" alt="架空Webサイトモバイルサイズ">
+                </div>
+                <a href="webdesign.html">more<i class="fa-solid fa-chevron-right"></i></a>
+            </section>
+
+            <section class="psai">
+                <h2>Photoshop / Illustrator</h2>
+                <div class="psaiimg-box">
+                    <img src="images/university.png" alt="大学ポスター">
+                    <img src="images/cardback.png" alt="名刺">
+                </div>
+                <a href="psai.html">more<i class="fa-solid fa-chevron-right"></i></a>
+            </section>
+
+            <section class="profile">
+                <h2>Profile</h2>
+                <div class="profiles-name">
+                    <div class="name">
+                        <h3>Name</h3>
+                        <h2>Nana Ota</h2>
+                    </div>
+                    <img src="images/myphoto.png" alt="Nanaの写真">
+                </div>
+                <a href="profile.html">more<i class="fa-solid fa-chevron-right"></i></a>
+            </section>
+        </section>
+
+        <footer>
+            <p class="footer-link">
+                <a href="index.html">ホーム</a>
+                <a href="webdesign.html">Webデザイン</a>
+                <a href="psai.html">Ps / Ai</a>
+                <a href="profile.html">Profile</a>
+            </p>
+            <p class="copyright"><small>&copy; 2025 Nana</small></p>
+        </footer>
+
+        <!-- Chartist.js -->
+        <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+
+        <script src="script.js"></script>
+    </body>
+</html>
